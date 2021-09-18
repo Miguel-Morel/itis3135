@@ -1,0 +1,36 @@
+a {
+    text-decoration: none; 
+    color: black;
+ }
+
+ a:visited {
+     color: black;
+ }
+
+ a:hover {
+     text-decoration: underline;
+     
+ }
+
+ footer {
+     text-align: center;
+ }
+
+ h2 {
+     text-align: center;
+ }
+
+ body
+{
+	font-family: verdana;
+	color: black;
+	background-color: LightGray ;
+	margin-left: 75px;
+	margin-right: 75px;
+}
+
+nav {
+    text-align: center;
+    font-weight: bold;
+}
+
