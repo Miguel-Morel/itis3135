@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<!-- Author: Miguel Morel                                                                                                                       
+Assignment: Simple Web-based Interaction 
+Student ID: 800877651  -->
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <title>Miguel Morel, ITIS3135, Simple Web Based Interaction</title>
+    <link href="first_script.css" rel="stylesheet" type="text/css">
+    <script>
+        function pressedMe() {
+            alert("Script Running");
+        }
+    </script>
+</head>
+
+<body>
+    <header>
+        <h1>Miguel Morel &gt;&gt; ITIS3135</h1>
+    </header>
+    <nav>
+        <a href=" Introduction.html ">Introduction ||</a>
+        <a href="project/tables.html ">Tables ||</a>
+        <a href="website_evaluations.html ">Website Evaluations</a>
+    </nav>
+    <main style="text-align: center; ">
+        <script src='scripts/alert.js'></script>
+        <h2>First Script</h2>
+        <p>JavaScript Demo</p>
+
+        <!--Button-->
+        <p id="ButtonMSG"></p>
+        <button id="btn" onclick="pressedMe()">ALERT!</button>
+
+        <!-- Greetings -->
+
+        <p id="helloUser"></p>
+        <button onclick="helloUser() ">Greeting-Date-Time</button>
+
+        <!-- calculateSumOfTwoNumbers -->
+        <p id="calculateSumOfTwoNumbers"></p>
+
+        <button onclick="calculateSumOfTwoNumbers() ">Calculate Sum Of Two Numbers</button>
+
+        <!-- calculateMilesPerGallon -->
+
+        <p id="calculateMilesPerGallon"></p>
+        <button onclick="calculateMilesPerGallon() ">Calculate Miles Per Gallon</button>
+
+        <!-- numberToHex -->
+
+        <p id="numberToHex"></p>
+        <button onclick="numberToHex() ">Convert Number to Hexidecimal</button>
+
+        <!-- convertFahrenheitToCelsius -->
+
+        <p id="convertFahrenheitToCelsius"></p>
+        <button onclick="convertFahrenheitToCelsius()">Convert Fahrenheit to Celsius</button>
+    </main>
+    <footer>
+        <br>
+        <nav>
+            <a href="http://webpages.uncc.edu/mmorel/ " target="_blank">Charlotte.edu</a> ║
+            <a href="https://github.com/mmorel1 " target="_blank">Github</a> ║
+            <a href="https://mmorel1.github.io/itis3135/Introduction.html " target="_blank">ITIS 3135 Github Pages</a> ║
+            <a href="https://www.codecademy.com/profiles/mmorel1/ " target="_blank">Codecademy</a> ║
+            <a href="https://www.freecodecamp.org/mmorel1/ " target="blank ">freeCodeCamp</a> ║
+            <a href="https://www.linkedin.com/in/mmorel1/ " target="blank ">LinkedIn</a> ║
+        </nav>
+        <br>
+        <p>
+            Page built by mmorel Productions
+        </p>
+        <a href="https://validator.w3.org/check?uri=https://mmorel1.github.io/itis3135/first_script.html ">
+            <img src="http://www.w3.org/Icons/valid-html401.png " width="88" height="31" alt="Link to HTML validator">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://mmorel1.github.io/itis3135/first_script.css ">
+            <img src="http://www.w3.org/Icons/valid-css2.png " width="88" height="31" alt="Link to CSS validator ">
+        </a>
+    </footer>
+</body>
+
+</html>
