@@ -10,11 +10,7 @@ Student ID: 800877651  -->
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <title>Miguel Morel, ITIS3135, Calculator Try</title>
     <link href="calculator_try.css" rel="stylesheet" type="text/css">
-    <script>
-        function pressedMe() {
-            alert("Script Running");
-        }
-    </script>
+    <script src="scripts/calculator_try.js"></script>
 </head>
 
 <body>
@@ -27,34 +23,37 @@ Student ID: 800877651  -->
         <a href="website_evaluations.html ">Website Evaluations</a>
     </nav>
     <main style="text-align: center; ">
-        <script src='scripts/calculator_try.js'></script>
-        <h2>First Script</h2>
-        <p>JavaScript Demo</p>
+        <h2>Calculator Try</h2>
 
         <form name="Calculator" id="Calculator">
-            <!--Inputs Tags-->
-            <input required class="firstValue" id="firstValue" placeholder="Input The First Value" value="8">
-            <input type="number" required class="secondValue" id="secondValue" placeholder="Input the second Value">
 
+            <!--Inputs Boxes-->
+            <input required type="number" class="firstValue" id="firstValue" placeholder="Input The First Value">
+            <input required type="number" class="secondValue" id="secondValue" placeholder="Input the Second Value">
+            <br>
 
             <!--Add-->
-            <button onclick="add() ">Add</button>
+            <button onclick="Add()">Add</button>
+
+            <br>
+            
             <!-- Subtract -->
-            <button onclick="Subtract() ">Subtract</button>
+            <button onclick="Subtract()">Subtract</button>
+
+            <br>
 
             <!-- Multiply -->
-            <p id="Multiply"></p>
+            <button onclick="Multiply()">Multiply</button>
 
-            <button onclick="Multiply() ">Multiply</button>
+            <br>
 
             <!-- Divide -->
-
             <button onclick="Divide()">Divide</button>
 
             <br>
 
             <!-- Answer Field -->
-            <label id="Answer">Total is: </label>
+            <label id="Answer"></label>
         </form>
 
     </main>

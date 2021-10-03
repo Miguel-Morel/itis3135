@@ -4,39 +4,35 @@ Assignment: Calculator Try
 Student ID: 800877651 
 */
 
-
-//document.getElementById("btn").addEventListener(onclick, alert('Script is running'));
 function Add() {
-    var test = document.querySelector('#firstValue').innerHTML;
-    console.log(test);
-    var firstValue = document.getElementById("firstValue").innerHTML;
-    var secondValue = document.getElementById("secondValue").innerHTML;
-    var total = firstValue + secondValue;
-    v = document.getElementById("Answer");
-    console.log(firstValue);
-    console.log(secondValue);
-    console.log(total);
-    v.innerHTML = total;
+    var firstValue = document.getElementById("firstValue").value;
+    var secondValue = document.getElementById("secondValue").value;
+    if (!(isNaN(parseFloat(firstValue))) && !(isNaN(parseFloat(secondValue)))) {
+    var total = parseFloat(firstValue) + parseFloat(secondValue);
+    alert("The total is: " +total)}
 }
 
+
 function Subtract() {
-    var firstValue = document.getElementById("firstValue").innerHTML;
-    var secondValue = document.getElementById("secondValue").innerHTML;
-    var total = firstValue - secondValue;
-    document.getElementById("Answer").innerHTML = total;
+    var firstValue = document.getElementById("firstValue").value;
+    var secondValue = document.getElementById("secondValue").value;
+    if (!(isNaN(parseFloat(firstValue))) && !(isNaN(parseFloat(secondValue)))) {
+        var total = parseFloat(firstValue) - parseFloat(secondValue);
+        alert("The total is: " +total)}
 }
 
 function Multiply() {
-
-    var firstValue = document.getElementById("firstValue").innerHTML;
-    var secondValue = document.getElementById("secondValue").innerHTML;
-    var total = firstValue * secondValue;
-    document.getElementById("Answer").innerHTML = total;
+    var firstValue = document.getElementById("firstValue").value;
+    var secondValue = document.getElementById("secondValue").value;
+    if (!(isNaN(parseFloat(firstValue))) && !(isNaN(parseFloat(secondValue)))) {
+        var total = parseFloat(firstValue) * parseFloat(secondValue);
+        alert("The total is: " +total)}
 }
 
 function Divide() {
-    var firstValue = document.getElementById("firstValue").innerHTML;
-    var secondValue = document.getElementById("secondValue").innerHTML;
-    var total = firstValue / secondValue;
-    document.getElementById("Answer").innerHTML = total;
+    var firstValue = document.getElementById("firstValue").value;
+    var secondValue = document.getElementById("secondValue").value;
+    if (!(isNaN(parseFloat(firstValue))) && !(isNaN(parseFloat(secondValue)))) {
+        var total = parseFloat(firstValue) / parseFloat(secondValue);
+        alert("The total is: " +total)}
 }
