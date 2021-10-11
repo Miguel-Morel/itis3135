@@ -1,3 +1,7 @@
+// Author: Miguel Morel                                                                                                                       
+// Assignment: Arrays 
+// Student ID: 800877651
+
 var person = [];
 var salary = [];
 averageSalary = 0;
