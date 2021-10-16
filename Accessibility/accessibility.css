@@ -1,0 +1,7 @@
+/* Author: Miguel Morel                                                                                                                       
+Assignment: Accessibility  
+Student ID: 800877651  */
+
+table, th, td {
+    border: 5px dotted black;
+  }
