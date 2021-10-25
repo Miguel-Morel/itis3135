@@ -9,11 +9,12 @@ Student ID: 800877651  -->
     <title>Tuxedo Cat Coffee</title>
     <meta charset="utf-8" />
     <link type="text/css" rel="stylesheet" href="Practice.css">
-    <script src="Practice.js"></script>
+    <script src="Practice.js">
+    </script>
 </head>
 
 <body>
-    <header>
+    <header onload="displayOrder()">
         <h1>Tuxedo Cat Coffee</h1>
         <img src="images/logo.png" alt="Morning Coffee" />
     </header>
@@ -33,14 +34,15 @@ Student ID: 800877651  -->
             <section>
                 <h2>Your Order</h2>
                 <p id="order">
-                    <br>
+
                 </p>
                 <!-- Emphasize  the total -->
+                <h2 style="font-weight: bold;">Total:</h2>
                 <p id="total">&nbsp;</p>
 
                 <div id="buttons">
                     <span>
-							<input type="button"  name="place_order" id="place_order" value="Place Order">
+							<input type="button"   name="place_order" id="place_order" value="Place Order">
 							<input type="button"  name="clear_order" id="clear_order" value="Clear Order">
 							<input type="button"  name="Contact Us" id="contact_us" value="Contact Us">
 					</span>
@@ -51,9 +53,13 @@ Student ID: 800877651  -->
 
     <footer>
         <br/>
-        <a href="https://validator.w3.org/">Validate HTML</a>
-        <br/>
-        <a href="https://jigsaw.w3.org/css-validator/">Validate CSS</a>
+
+        <a href="https://validator.w3.org/check?uri=https://mmorel1.github.io/itis3135/Practice/Practice.html ">
+            <img src="http://www.w3.org/Icons/valid-html401.png " width="88" height="31" alt="Link to HTML validator">
+        </a>
+        <a href="https://jigsaw.w3.org/css-validator/validator?uri=https://mmorel1.github.io/itis3135/Practice/Practice.css ">
+            <img src="http://www.w3.org/Icons/valid-css2.png " width="88" height="31" alt="Link to CSS validator ">
+        </a>
     </footer>
 
 </body>
