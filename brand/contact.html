@@ -1,0 +1,111 @@
+<!--Author: Miguel Morel
+    Assignment: Midterm
+    Student ID: 800877651-->
+
+    <!DOCTYPE html>
+
+    <html lang="en">
+    
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    
+    
+        <!-- 
+            Color scheme from Coolors: 
+            https://coolors.co/8789c0-45f0df-c2cae8-8380b6-111d4a
+        -->
+        
+        <link rel="stylesheet" href="styles/default.css">
+    
+        <script src="https://www.w3schools.com/lib/w3.js"></script>
+    
+        
+    
+    
+        
+        <title>Contact Us</title>
+    </head>
+    
+    
+    
+    <body>
+        <header>
+            <div w3-include-html="components/header.html"></div> 
+
+            <script>
+                function notifyUser(info) {
+                    var email = document.getElementById("email").value;
+                    var name = document.getElementById("name").value;
+                    var phoneNumber = document.getElementById("phoneNumber").value;
+                    var message = "Your information: \n" + email + "\n" + name + "\n" + phoneNumber;
+                    alert(message);
+                }
+
+  
+            </script>
+        
+    
+        </header>
+        <main>
+            <h2>
+                Contact Us
+            </h2>
+
+            
+            <form action="#" onsubmit="return notifyUser(this);" style="color: white">
+
+
+
+                <label>
+				Email:<input size="20" id="email" required type="email" placeholder="example@email.com">
+				</label>
+                <br>
+                <label>Name:<input size="20" id="name" type="text">
+				</label>
+                <br>
+
+                <label >Phone number:<input type="number" id="phoneNumber">
+				</label>
+                <br>
+
+                
+                
+                <label>
+				
+						Over 17?<input type="checkbox">
+					
+					</label>
+                <br>
+                <input type="Submit" id="button">
+
+                
+
+
+
+
+            </form>
+    
+        </main>
+    
+        <footer>
+    
+            <div w3-include-html="components/footer.html"></div> 
+    
+            <script>w3.includeHTML();</script>
+    
+            
+    
+            
+    
+            
+    
+          
+    
+    
+    
+    
+        </footer>
+    </body>
+    
+    
+    </html>
