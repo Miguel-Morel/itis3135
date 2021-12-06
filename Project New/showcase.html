@@ -1,0 +1,154 @@
+<!--Author: Miguel Morel                                                                                                                       
+Assignment: Project
+Student ID: 800877651 -->
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Showcase</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='styles/main.css'>
+    <script src='main.js'></script>
+    <link rel="stylesheet" href="styles/slideshow.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script>
+    <script src="main.js"></script>
+</head >
+
+<body>
+    <header>
+       
+        <h1>
+            <img alt="logo" src="images/logo.jpg" width="100" style="padding-left: 400px;">
+            Eclipse Builds LLC 
+        </h1>
+
+        <nav>
+
+            <a href="index.html" id="homeL">
+                <div id="homeLink">Home</div>
+            </a>
+            <a href="services.html">
+                <div>Services</div>
+            </a>
+            <a href="showcase.html">
+                <div>Showcase</div>
+            </a>
+            <a href="about.html">
+                <div>About Us</div>
+            </a>
+            <a href="contact.html">
+                <div>Contact Us</div>
+            </a>
+        </nav>
+
+    </header>
+    <br>
+    
+    <main>
+
+        <section class="container" style="margin-left: 50%;">
+            <div class="column is-4">
+                <div class="card is-shady" style="border-style: solid; background-color: rgb(92, 88, 88);">
+                    <h2 style=" background-color: rgba(92, 88, 88, 0);">Entry Level</h2>
+
+                    <div class="card-image">
+
+                        <figure class="image is-4by3">
+                            <img src="images/build1.png" alt="build1" class="modal-button" data-target="modal-image2">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Description</h4>
+                            <p>Our CPU of choice is the Intel Core i3-10100. This CPU is inexpensive but still packs a
+                                punch with its 4 cores/8 threads and 4.3 GHz turbo frequency.
+                                The Core i3-10100 includes a CPU cooler, so a 3rd-party cooler isn't necessary.
+                                You could possibly save some money by purchasing the Intel Core i3-10100F instead. It's
+                                a similar CPU that just doesn't include an integrated GPU.
+                                Integrated GPUs are not necessary when you have a discrete GPU like the one mentioned
+                                below.
+                                It can, however, be helpful when troubleshooting issues that are possibly caused by the
+                                GPU.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="column is-4">
+                
+                <div class="card is-shady" style="border-style: solid; background-color: rgb(92, 88, 88);">
+                    <h2>Intermediate Level</h2>
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="images/build2.jpg" alt="build2">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Description</h4>
+                            <p>The Modest AMD build guide is focused on providing the best performance per dollar on a
+                                mid range gaming PC.
+                                The components are straightforward to install and the system will run games at 1080p or
+                                higher without issue.
+                                If you are looking for more of a budget build you can take a look at our Entry Level AMD
+                                Gaming Guide
+                                Our Modest AMD Gaming Build is centered around the newly released AMD Ryzen 5 5600G.
+                                This CPU is similar in performance to the 5600X but includes onboard graphics which can
+                                be used while you wait to purchase a separate GPU or for troubleshooting your system.
+                                Using the included CPU cooler you will be able to achieve moderate overclocks on this
+                                unlocked processor.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <br>
+            <div class="column is-4 modal-button" data-target="modal-image">
+                <div class="card is-shady" style="border-style: solid; background-color: rgb(92, 88, 88);">
+
+                    <h2>Enthusiast Level</h2>
+
+                    <div class="card-image">
+                        <figure class="image is-4by3">
+                            <img src="images/build3.jpg" alt="build3">
+                        </figure>
+                    </div>
+                    <div class="card-content">
+                        <div class="content">
+                            <h4>Description</h4>
+                            <p>Our GPU is Nvidia's new GeForce RTX 3080. Consider pairing it with a high refresh rate
+                                and/or high resolution monitor to take full advantage of the card's capabilities.
+                                The parametric filter is set for the best-priced RTX 3080 available, but feel free to
+                                click the "From parametric filter" link to browse our listing of RTX 3080, which will
+                                grow as more become available.
+                                For those interested in VR, the RTX 3080 will have no problem playing any and and all
+                                applications currently on the market.
+                                For streaming, Nvidia's NVENC encoding will offload the task to the GPU with a minimal
+                                performance hit using OBS (Open Broadcaster Software) while providing image quality
+                                similar to or better than x264 Fast quality.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+    <br>
+
+    <footer>
+        <hr class="content-divider">
+        <iframe
+        src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3255.955094543494!2d-80.73735268438385!3d35.30709725800595!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88541c1ad0a92357%3A0x6b3f67f7f19324f3!2sUniversity%20of%20North%20Carolina%20at%20Charlotte!5e0!3m2!1sen!2sus!4v1631909837852!5m2!1sen!2sus"
+        width="300" height="150" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    <br>
+
+        <a href="https://validator.w3.org/check?uri=referer">Validate HTML</a>
+        <a href="https://jigsaw.w3.org/css-validator/check/referer">Validate CSS</a>
+
+    </footer>
+
+</body>
+
+</html>
